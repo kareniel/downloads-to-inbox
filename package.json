@@ -1,0 +1,29 @@
+{
+  "name": "downloads-to-inbox",
+  "version": "1.0.0",
+  "description": "move music files from downloads to music inbox folder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kareniel/downloads-to-inbox.git"
+  },
+  "author": "kareniel",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kareniel/downloads-to-inbox/issues"
+  },
+  "homepage": "https://github.com/kareniel/downloads-to-inbox#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "pump": "^2.0.0",
+    "run-parallel": "^1.1.6"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  }
+}
